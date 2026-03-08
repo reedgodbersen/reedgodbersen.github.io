@@ -43,6 +43,15 @@ header {
     margin-bottom: 3rem;
 }
 
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 30%;
+    margin-bottom: 1.5rem;
+}
+
 .name {
     font-size: 2.5rem;
     font-weight: 700;
