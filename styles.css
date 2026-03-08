@@ -79,6 +79,61 @@ p {
     font-size: 1.05rem;
 }
 
+/* Projects Section */
+.project-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.project-card {
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.project-description {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-links a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.project-links a:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
 /* Links Section */
 .social-links {
     display: flex;
@@ -146,6 +201,18 @@ footer {
 
     .social-links a {
         text-align: center;
+    }
+
+    .project-card {
+        padding: 1.25rem;
+    }
+
+    .project-card h3 {
+        font-size: 1.15rem;
+    }
+
+    .project-description {
+        font-size: 0.95rem;
     }
 }
 
